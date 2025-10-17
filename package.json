@@ -2,8 +2,9 @@
     "name": "calculatrice-web",
     "version": "1.0.0",
     "scripts": {
-        "test": "jest",
-        "lint": "eslint ."
+        "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+        "lint": "eslint .",
+        "lin": "npm run lint"
     },
     "devDependencies": {
         "@eslint/js": "^9.37.0",
