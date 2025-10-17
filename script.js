@@ -10,3 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     console.log("Calculatrice initialisée !");
   });
+
+  export function divide(a, b) {
+    return a / b;
+  }
