@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const display = document.getElementById("display");
     const buttons = document.getElementById("buttons");
   
     const symbols = ["7", "8", "9", "+", "4", "5", "6", "-", "1", "2", "3", "*", "0", "C", "=", "/"];
