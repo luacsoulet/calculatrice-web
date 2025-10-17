@@ -2,12 +2,14 @@
     "name": "calculatrice-web",
     "version": "1.0.0",
     "scripts": {
-      "test": "jest",
-      "lint": "eslint ."
+        "test": "jest",
+        "lint": "eslint ."
     },
     "devDependencies": {
-      "jest": "^29.0.0",
-      "eslint": "^8.0.0"
+        "@eslint/js": "^9.37.0",
+        "eslint": "^8.57.1",
+        "globals": "^16.4.0",
+        "jest": "^29.0.0"
     },
     "type": "module"
-  }
+}
