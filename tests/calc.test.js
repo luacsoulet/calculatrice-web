@@ -1,5 +1,5 @@
 import { add } from "../script.js";
 
-test("addition simple", () => {
-  expect(add(2, 3)).toBe(5);
+test("multiplication simple", () => {
+  expect(multiply(2, 3)).toBe(6);
 });
